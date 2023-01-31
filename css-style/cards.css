@@ -1,142 +1,75 @@
-.p-card1 {
+.p-cards {
+    display:flex;
+    flex-wrap:wrap;
+    row-gap:30px;
+    gap:30px;
+}
+
+.card {
+    height: 250px;
+    width: 180px;
+    background: rgb(172, 172, 172);
     border-radius: 15px;
-    max-width: 200px;
-    height: 350px;
-    border: 4px solid rgb(101, 113, 123);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: rgb(46, 46, 46);
+    transition: transform linear 0.4s, opacity linear 0.4s;
+    cursor: pointer;
+    opacity: 0.6;
     position: relative;
+}
+
+.card:hover {
+    transform: scale(1.1);
     background-image: url(/cards-suits/photo-1558591710-4b4a1ae0f04d.jpeg);
+    opacity: 1;
 }
 
-.p-card1 > img {
+.club > h1 {
     position: absolute;
-    top: 125px;
-    left: 50px;
+    top: -15px;
+    left: 20px;
 }
 
-.t1 > h1 {
-    color: rgb(66, 72, 77);
-    transform: translate(7px, -20px);
-}
-
-.t1 > p {
-    color: rgb(66, 72, 77);
-    transform: translate(7px, -20px);
-}
-
-.t2 > h1 {
-    color: rgb(66, 72, 77);
-    transform: translate(170px, 190px);
-}
-
-.t2 > p {
-    color: rgb(66, 72, 77);
-    transform: translate(180px, 100px);
-}
-
-/* card 2 */
-.p-card2 {
-    border-radius: 15px;
-    max-width: 200px;
-    height: 350px;
-    border: 4px solid rgb(101, 113, 123);
-    position: relative;
-    background-image: url(/cards-suits/photo-1558591710-4b4a1ae0f04d.jpeg);
-}
-
-.p-card2 > img {
+.club > h2 {
     position: absolute;
-    top: 125px;
-    left: 50px;
+    top: 200px;
+    left: 150px;
 }
 
-.t3 > h1 {
-    color: rgb(66, 72, 77);
-    transform: translate(7px, -20px);
-}
-
-.t3 > p {
-    color: rgb(66, 72, 77);
-    transform: translate(7px, -20px);
-}
-
-.t4 > h1 {
-    color: rgb(66, 72, 77);
-    transform: translate(170px, 190px);
-}
-
-.t4 > p {
-    color: rgb(66, 72, 77);
-    transform: translate(180px, 100px);
-}
-
-/* card3 */
-.p-card3 {
-    border-radius: 15px;
-    max-width: 200px;
-    height: 350px;
-    border: 4px solid rgb(101, 113, 123);
-    position: relative;
-    background-image: url(/cards-suits/photo-1558591710-4b4a1ae0f04d.jpeg);
-}
-
-.p-card3 > img {
+.diamond > h1 {
     position: absolute;
-    top: 125px;
-    left: 50px;
+    top: -15px;
+    left: 20px;
 }
 
-.t5 > h1 {
-    color: rgb(66, 72, 77);
-    transform: translate(7px, -20px);
-}
-
-.t5 > p {
-    color: rgb(66, 72, 77);
-    transform: translate(7px, -20px);
-}
-
-.t6 > h1 {
-    color: rgb(66, 72, 77);
-    transform: translate(170px, 190px);
-}
-
-.t6 > p {
-    color: rgb(66, 72, 77);
-    transform: translate(180px, 100px);
-}
-
-/* card 4 */
-.p-card4 {
-    border-radius: 15px;
-    max-width: 200px;
-    height: 350px;
-    border: 4px solid rgb(101, 113, 123);
-    position: relative;
-    background-image: url(/cards-suits/photo-1558591710-4b4a1ae0f04d.jpeg);
-}
-
-.p-card4 > img {
+.diamond > h2 {
     position: absolute;
-    top: 125px;
-    left: 50px;
+    top: 200px;
+    left: 150px;
 }
 
-.t7 > h1 {
-    color: rgb(66, 72, 77);
-    transform: translate(7px, -20px);
+.heart > h1 {
+    position: absolute;
+    top: -15px;
+    left: 20px;
 }
 
-.t7 > p {
-    color: rgb(66, 72, 77);
-    transform: translate(7px, -20px);
+.heart > h2 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
 }
 
-.t8 > h1 {
-    color: rgb(66, 72, 77);
-    transform: translate(170px, 190px);
+.spade > h1 {
+    position: absolute;
+    top: -15px;
+    left: 20px;
 }
 
-.t8 > p {
-    color: rgb(66, 72, 77);
-    transform: translate(180px, 100px);
+.spade > h2 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
 }
