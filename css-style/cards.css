@@ -1,0 +1,142 @@
+.p-card1 {
+    border-radius: 15px;
+    max-width: 200px;
+    height: 350px;
+    border: 4px solid rgb(101, 113, 123);
+    position: relative;
+    background-image: url(/cards-suits/photo-1558591710-4b4a1ae0f04d.jpeg);
+}
+
+.p-card1 > img {
+    position: absolute;
+    top: 125px;
+    left: 50px;
+}
+
+.t1 > h1 {
+    color: rgb(66, 72, 77);
+    transform: translate(7px, -20px);
+}
+
+.t1 > p {
+    color: rgb(66, 72, 77);
+    transform: translate(7px, -20px);
+}
+
+.t2 > h1 {
+    color: rgb(66, 72, 77);
+    transform: translate(170px, 190px);
+}
+
+.t2 > p {
+    color: rgb(66, 72, 77);
+    transform: translate(180px, 100px);
+}
+
+/* card 2 */
+.p-card2 {
+    border-radius: 15px;
+    max-width: 200px;
+    height: 350px;
+    border: 4px solid rgb(101, 113, 123);
+    position: relative;
+    background-image: url(/cards-suits/photo-1558591710-4b4a1ae0f04d.jpeg);
+}
+
+.p-card2 > img {
+    position: absolute;
+    top: 125px;
+    left: 50px;
+}
+
+.t3 > h1 {
+    color: rgb(66, 72, 77);
+    transform: translate(7px, -20px);
+}
+
+.t3 > p {
+    color: rgb(66, 72, 77);
+    transform: translate(7px, -20px);
+}
+
+.t4 > h1 {
+    color: rgb(66, 72, 77);
+    transform: translate(170px, 190px);
+}
+
+.t4 > p {
+    color: rgb(66, 72, 77);
+    transform: translate(180px, 100px);
+}
+
+/* card3 */
+.p-card3 {
+    border-radius: 15px;
+    max-width: 200px;
+    height: 350px;
+    border: 4px solid rgb(101, 113, 123);
+    position: relative;
+    background-image: url(/cards-suits/photo-1558591710-4b4a1ae0f04d.jpeg);
+}
+
+.p-card3 > img {
+    position: absolute;
+    top: 125px;
+    left: 50px;
+}
+
+.t5 > h1 {
+    color: rgb(66, 72, 77);
+    transform: translate(7px, -20px);
+}
+
+.t5 > p {
+    color: rgb(66, 72, 77);
+    transform: translate(7px, -20px);
+}
+
+.t6 > h1 {
+    color: rgb(66, 72, 77);
+    transform: translate(170px, 190px);
+}
+
+.t6 > p {
+    color: rgb(66, 72, 77);
+    transform: translate(180px, 100px);
+}
+
+/* card 4 */
+.p-card4 {
+    border-radius: 15px;
+    max-width: 200px;
+    height: 350px;
+    border: 4px solid rgb(101, 113, 123);
+    position: relative;
+    background-image: url(/cards-suits/photo-1558591710-4b4a1ae0f04d.jpeg);
+}
+
+.p-card4 > img {
+    position: absolute;
+    top: 125px;
+    left: 50px;
+}
+
+.t7 > h1 {
+    color: rgb(66, 72, 77);
+    transform: translate(7px, -20px);
+}
+
+.t7 > p {
+    color: rgb(66, 72, 77);
+    transform: translate(7px, -20px);
+}
+
+.t8 > h1 {
+    color: rgb(66, 72, 77);
+    transform: translate(170px, 190px);
+}
+
+.t8 > p {
+    color: rgb(66, 72, 77);
+    transform: translate(180px, 100px);
+}
