@@ -1,5 +1,5 @@
 # Frontend Mentor - 3-column preview card component solution
-![screenshot1](./imgs/task-screenshot%20.png)
+![screenshot1](./imgs/task-screenshot.png)
 ![screenshot-hover](./imgs/task-screenshot-hover.png)
 
 ## Welcome! 
