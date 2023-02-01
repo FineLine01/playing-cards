@@ -1,4 +1,4 @@
-# Frontend Mentor - 3-column preview card component solution
+# Playing Cards
 ![screenshot1](./imgs/task-screenshot.png)
 ![screenshot-hover](./imgs/task-screenshot-hover.png)
 
