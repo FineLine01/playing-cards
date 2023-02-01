@@ -1,22 +1,24 @@
+/* FIRST EXAMPLE OF HOVER */
 .p-cards {
     display:flex;
     flex-wrap:wrap;
     row-gap:30px;
     gap:30px;
+    justify-content: center;
 }
 
 .card {
     height: 250px;
     width: 180px;
-    background: rgb(172, 172, 172);
+    background: rgb(255, 255, 255);
+    border: 2px solid black;
+    color: rgb(46, 46, 46);
     border-radius: 15px;
     display:flex;
     justify-content:center;
     align-items:center;
-    color: rgb(46, 46, 46);
     transition: transform linear 0.4s, opacity linear 0.4s;
     cursor: pointer;
-    opacity: 0.6;
     position: relative;
 }
 
@@ -73,3 +75,119 @@
     top: 200px;
     left: 150px;
 }
+
+/* SECOND EXAMPLE OF HOVER and TRANSFORM */
+
+.p-cards-2nd-example {
+    display:flex;
+    flex-wrap:wrap;
+    row-gap: -10px;
+    gap: 5px;
+    justify-content: center;
+    transform: translateY(150px);
+}
+
+.card1 {
+    height: 250px;
+    width: 180px;
+    background: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 15px;
+    color: rgb(46, 46, 46);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition: transform linear 0.4s, opacity linear 0.4s;
+    cursor: pointer;
+    position: relative;
+}
+
+.card1:hover {
+    transform: scale(1.1);
+    background-image: url(/cards-suits/photo-1558591710-4b4a1ae0f04d.jpeg);
+    opacity: 1;
+}
+
+.club1 {
+    transform:translateX(150px) rotate(-20deg);
+    
+}
+
+.club1:hover {
+    transform:translateY(-200px) translateX(150px) rotate(-5deg);
+}
+
+.diamond1 {
+    transform: translateY(-20px) translateX(50px) rotate(-5deg)
+}
+
+.diamond1:hover {
+    transform: translateY(-200px) translateX(80px) rotate(-5deg)
+}
+
+.heart1 {
+    transform: translateY(-20px) translateX(-50px) rotate(5deg);
+}
+
+.heart1:hover {
+    transform: translateY(-200px) translateX(-50px)
+    rotate(-5deg);
+}
+
+.spade1 {
+    transform:translateX(-150px)rotate(20deg);
+}
+
+.spade1:hover {
+    transform:translateX(-150px) rotate(-5deg);
+}
+
+
+.club1 > h1 {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+}
+
+.club1 > h2 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.diamond1 > h1 {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+}
+
+.diamond1 > h2 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.heart1 > h1 {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+}
+
+.heart1 > h2 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.spade1 > h1 {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+}
+
+.spade1 > h2 {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
